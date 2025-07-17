@@ -1,0 +1,15 @@
+<group name="mikrotik,">
+  <rule id="100001" level="3">
+    <decoded_as>mikrotik</decoded_as>
+    <description>Mikrotik log message</description>
+    <options>no_full_log</options>
+  </rule>
+</group>
+
+<group name="mikrotik,">
+  <rule id="100002" level="5">
+    <decoded_as>json</decoded_as>
+    <description>Mikrotik test log triggered</description>
+    <match>MIKROTIK</match>
+  </rule>
+</group>
